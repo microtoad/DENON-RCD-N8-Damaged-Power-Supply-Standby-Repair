@@ -3,32 +3,13 @@
 # DENON-RCD-N8-Damaged-Power-Supply-Standby-Repair
 Description de la réparation de la carte POXER SMPS du Denon Ceol N8 RCD-N8 
 
-[![Build and Release Firmware](https://github.com/AxxAxx/AxxSolder/actions/workflows/build-release.yaml/badge.svg)](https://github.com/AxxAxx/AxxSolder/actions/workflows/build-release.yaml)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-<a href='https://ko-fi.com/axxaxx' target='_blank'><img height='35' style='border:0px;height:20px;' src='https://github.com/AxxAxx/kofi-button/blob/main/Ko-fi_Buy-me-a-coffee_button.png?raw=true' border='0' alt='Donate' />  
-
-Interested in purchasing an AxxSolder 3.2?  
-On my website [5Dimensions](https://www.5dimensions.se/) you can purchase assembled and tested AxxSolder 3.2 boards with connectors and hardware.  
-
-
-<img src="./photos/5DIMENSIONS_Logo.png" alt="drawing" width="200"/>
-
-# Symptomes
+# Symptômes
 - L’appareil ne démarre pas
 - La LED de veille (rouge) ne s’allume pas
 - Aucun signe de vie en mode standby
-  
-Two different versions are designed around the same PCB and software - one soldering station based on the [JBC ADS stand](https://www.jbctools.com/ad-sf-stand-for-t210-t245-handles-product-2018.html) and one portable version. The AxxSolder hardware takes a DC input source of 9-24V OR a USB-C Power Delivery source. The recommended power supply is a Meanwell [LRS-150-24](#recommended-power-supply) which can power all compatible JBC irons at full power. If a 65W, 20V USB-PD supply is used then NT115 and T210 handles can be powered at full power and T245 at limited power. The power limiting is automatic and AxxSolder reads the power capability of the USB-PD source during the negotiating phase and reduces the output power accordingly.  
-The software is written for the [STM32G431CBT6](https://www.st.com/en/microcontrollers-microprocessors/stm32g431cb.html) and implements a PID controller for temperature regulation, TFT display driver, sleep functions for when the handle is at rest and various user settings to name a few.  
-Enclosures for both station and portable versions are 3D printed and design files are available under [/CAD](https://github.com/AxxAxx/AxxSolder/tree/main/CAD). A video showing the AxxSolder station can be found under [DEMO](#DEMO). A *bill of materials* (BOM) with individual component prices can be found under [/bom](https://github.com/AxxAxx/AxxSolder/tree/main/AxxSolder_hardware/bom).  
-![coverphoto](./photos/AxxSolder_cover.jpg)
-
-# Questions and support
-Please use [Discord](https://discord.gg/AwpHEmsyKj) for build related and general questions.
 
 # Table of Contents
-- [AxxSolder Overview](#axxsolder-overview)
-- [Questions and support](#questions-and-support)
+- [Description du problème](#Symptômes)
 - [Features](#features)
 - [DEMO](#demo)
 - [GRAPHING](#graphing)
@@ -76,9 +57,9 @@ Please use [Discord](https://discord.gg/AwpHEmsyKj) for build related and genera
 [![YouTube](./photos/YouTube.PNG)](https://www.youtube.com/watch?v=I5uLvEM9wpY)  
 [https://www.youtube.com/watch?v=I5uLvEM9wpY](https://www.youtube.com/watch?v=I5uLvEM9wpY)
 
-# GRAPHING
-[![YouTubeGraph](./photos/Graphing.PNG)](https://www.youtube.com/watch?v=BTZFAHj0sKs)  
-[https://www.youtube.com/watch?v=BTZFAHj0sKs](https://www.youtube.com/watch?v=BTZFAHj0sKs)
+# TOPICS
+[![YouTubeGraph](./photos/Graphing.PNG)](https://www.elektroda.com/rtvforum/topic2922142.html)  
+[https://www.elektroda.com/rtvforum/topic2922142.html](https://www.elektroda.com/rtvforum/topic2922142.html)
 
 # Schematic
 The schematic for AxxSolder is shown below. Both station and portable versions use the same PCB and software. The MCU is a [STM32G431CBT6](https://www.st.com/en/microcontrollers-microprocessors/stm32g431cb.html). 
