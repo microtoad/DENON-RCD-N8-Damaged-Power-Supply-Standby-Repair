@@ -1,4 +1,4 @@
-[coverphoto](./photos/denon_rcd-n8_thumb_1.jpg)
+[coverphoto](./photos/denon_rcd-n8_tumb_1.jpg)
 
 # DENON-RCD-N8-Damaged-Power-Supply-Standby-Repair
 Description de la réparation de la carte POXER SMPS du Denon Ceol N8 RCD-N8 
